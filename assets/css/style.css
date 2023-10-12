@@ -118,8 +118,6 @@ footer div {
     color: #ffffff;
     border: 5px dashed rgba(176, 57, 78, 1);
     border-radius: 8px;
-    font-size: larger;
-
 }
 
 #topic-question h2 {
@@ -150,6 +148,27 @@ footer div {
     text-align: center;
     font-weight: 700;
 }
+
+/* Here starts the library page styling */
+#covers {
+    line-height: 0;
+}
+
+.cover {
+    width: 100%;
+    line-height: 0;
+    position: relative;
+}
+
+.covers label {
+    position: absolute;
+    bottom: 10px;
+    right: 45%;
+    z-index: 99;
+    color: #fafafa;
+    font-weight: 700;
+}
+
 
 /* Here starts the feedback page styling*/
 #feedback {
