@@ -10,19 +10,19 @@ goes beyond plain black text on white background.
 
 ## Motivation
 
-```
+```text
 
 ```
 
 ## Features
 
-```
+```text
 
 ```
 
 ## Testing
 
-```
+```text
 
 ```
 
@@ -30,7 +30,7 @@ goes beyond plain black text on white background.
 
 ### Online
 
-```
+```text
 The online deployment is rather simple and is being deployed by GitHub pages.
 Steps are as follows:
 
@@ -41,13 +41,13 @@ Steps are as follows:
 
 ### Local
 
-```
+```text
 Inside your terminal, e.g. inside your IDE type:
 python3 -m http.server
 ```
 
 ## Credits
 
-```
+```text
 
 ```
