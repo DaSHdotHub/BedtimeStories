@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant&family=Pixelify+Sans:wght@400;500;600&display=swap');
+
+body {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: fit-content;
+    width: 100%;
+    background-color: silver;
+    align-items: center;
+}
+
+header a {
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    color: teal;
+    text-decoration: none;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: 600;
+}
+
+main {
+    flex: 1 0 auto;
+    background-color: teal;
+    height: 100vw;
+    width: 100%;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: silver;
+    color: teal;
+}
+
+footer>p {
+    text-align: center;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: 400;
+}
