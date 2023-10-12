@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant&family=Pixelify+Sans:wght@400;500;600&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
 body {
     height: fit-content;
     display: flex;
@@ -9,23 +16,26 @@ body {
 header {
     height: fit-content;
     width: 100%;
-    background-color: silver;
+    background-color: #160027;
     align-items: center;
 }
 
 header a {
     text-transform: uppercase;
     letter-spacing: -2px;
-    color: teal;
+    color: #ffffff;
     text-decoration: none;
     font-family: 'Pixelify Sans', sans-serif;
     font-weight: 600;
 }
 
+h1 {
+    padding: 10px 30px;
+}
+
 main {
     flex: 1 0 auto;
-    background-color: teal;
-    height: 100vw;
+    height: fit-content;
     width: 100%;
     font-family: 'Ysabeau Infant', sans-serif;
 }
@@ -33,12 +43,20 @@ main {
 footer {
     height: 50px;
     width: 100%;
-    background-color: silver;
-    color: teal;
+    background-color: #160027;
+    color: #ffffff;
 }
 
 footer>p {
     text-align: center;
     font-family: 'Pixelify Sans', sans-serif;
     font-weight: 400;
+    padding: 10px 30px 20px 30px;
+}
+
+#intro {
+    height: 600px;
+    width: 100%;
+    background: url("../img/NightSky8bit.webp") no-repeat center top/cover;
+    position: relative;
 }
