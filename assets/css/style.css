@@ -109,7 +109,7 @@ footer div {
 }
 
 #topic-question {
-    position: fixed;
+    position: absolute;
     top: 450px;
     left: 33vw;
     width: auto;
