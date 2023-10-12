@@ -49,5 +49,7 @@ python3 -m http.server
 ## Credits
 
 ```text
+This website was created with the help of following template from CodeInstitute:
+https://github.com/Code-Institute-Solutions/readme-template
 
 ```
