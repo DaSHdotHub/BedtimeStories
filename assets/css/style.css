@@ -111,7 +111,7 @@ footer div {
 #topic-question {
     display: block;
     position: fixed;
-    top: 50vw;
+    top: 450px;
     left: 33vw;
     width: auto;
     height: auto;
@@ -121,6 +121,10 @@ footer div {
     border-radius: 8px;
     font-size: larger;
 
+}
+
+#topic-question h2 {
+    padding: 10px 30px;
 }
 
 #reasons {
