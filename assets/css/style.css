@@ -24,6 +24,10 @@ header {
     position: fixed;
     /* Border */
     box-shadow: 0 2px 2px darkgrey;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-evenly;
 }
 
 header a {
@@ -33,6 +37,14 @@ header a {
     text-decoration: none;
     font-family: 'Pixelify Sans', sans-serif;
     font-weight: 600;
+}
+
+#menu {
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-evenly;
 }
 
 h1 {
