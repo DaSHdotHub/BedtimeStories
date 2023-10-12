@@ -1,4 +1,30 @@
-# Bedtime Stories
+# **Bedtime Stories**
+
+## **Table of Content**
+
+### [**Introduction**](#introduction-aa)
+
+### [**Motivation**](#motivation-aa)
+
+### [**Technologies**](#technologiy-aa)
+
+### [**Responsive Design**](#responsive_design-aa)
+
+### [**Quality Control**](#quality-control-aa)
+
+### [**Testing**](#testing-aa)
+
+### [**Deployment and local development**](#deployment-and-local-development-aa)
+
+- [GitHub Pages](#github-pages)
+- [Forking the GitHub Repository](#forking-the-github-repository)
+
+### [**Credits**](#credits-aa)
+
+- [Content](#content)
+- [Media](#media)
+
+## <a id="introduction-aa"></a>**Introduction**
 
 The Bedtime Stories website is a page for parents and children alike.
 As long as someone can read he or she should be encouraged to visit to check for new or
@@ -8,54 +34,71 @@ One of the key concepts of this website should be to sample some of these short
 stories we all so cherish and love from our childhood. Create an immersion which
 goes beyond plain black text on white background.
 
-## Motivation
+## <a id="motivation-aa"></a>**Motivation**
 
-```text
 One of the thing I do most on a regulary basis is reading a good night story to my son.
 As marvelous as books are, sometimes there is no possibilty to bring them along on a
-longer roadtrip.
+longer trip. A website like [Bedtime Stories](https://github.com/DaSHdotHub/BedtimeStories) is
+charming to the reader through sheer simplicity and old fashioned retro styling.
 
-```
+## <a id="responsive_design-aa"></a>**Responsive Design**
 
-## Features
+![Am I Responsive](assets/img/docs/am-i-responsive.png)
 
-```text
+## <a id="quality-control-aa"></a>**Quality Control**
 
-```
+- W3C HTML Validator
+- W3C CSS Validaor
+- Dev-Tools Lighthouse
 
-## Testing
+## <a id="technology-aa"></a>**Technology**
 
-```text
+In this project following technologies and tools were used:
 
-```
+- GitHub as 'Code Repository' and for version control
+- Git for packaging and comittinng the code
+- HTML5
+- CSS3
+- Codeanywhere as IDE
+- Python3 template from CI
+- Am I Resonsive for creating some mockup images for this documentation
 
-## Deployment
+## <a id="deployment-and-local-development-aa"></a>**Deployment and local development**
 
-### Online
+### **GitHub Pages**
 
-```text
-The online deployment is rather simple and is being deployed by GitHub pages.
-Steps are as follows:
+1. Log in to GitHub and locate [GitHub Repository Bedtime Stories](https://github.com/DaSHdotHub/BedtimeStories)
+2. At the navigation bar of the repository tab find "Settings", click.
+3. At the left side under the "Code and automation" section, click on "Pages".
+4. Next locate the "Source" and set it to "Deploy from a branch", branch should be "main", folder set to "root" and then click on the "Save" button.
+5. Head back to the [Project Repository](https://github.com/DaSHdotHub/BedtimeStories) and on the right side click on [Deployments](https://github.com/DaSHdotHub/BedtimeStories/deployments) and under the "Active deployments" section is the freshly deployed project: [Bedtime Stories](https://github.com/DaSHdotHub/BedtimeStories)
 
-1. In the GitHub repository, navigate to the Setting tab
-2. From the source section drop-down menu, select the Master Branch
-3. Once the master branch has been selected, the page provided the link to the deployed website.
-```
+### **Forking the GitHub Repository**
 
-### Local
+By forking the GitHub Repository we can make a copy of the original repository to view or make changes without changing the original repository.
 
-```text
-Inside your terminal, e.g. inside your IDE type:
-python3 -m http.server
-```
+1. Log in to GitHub and locate [GitHub Repository Bedtime Stories](https://github.com/DaSHdotHub/BedtimeStories)
+2. At the top, in the line with the project's name, on the right side find "Fork", click.
+3. Now you have a copy of the original repository in your GitHub account.
 
-## Credits
+### **Local run**
 
-```text
-This website was created with the help of following template from CodeInstitute:
-https://github.com/Code-Institute-Solutions/readme-template
-CSS was inspired by the walkthrough project: Love Running
-https://github.com/Code-Institute-Org/ci-full-template
-Artwork was created with NightCafe.
+- Make sure python3 is installed.<br>
+- Inside or outside an IDE run following command from the root directory of the project:<br>
+  <code>phyton3 -m http.server</code>
 
-```
+## <a id="credits-aa"></a>**Credits**
+
+- Big thanks to my wife and my child who are always supporting me at their best :-)
+
+### **Content**
+
+- Some design patterns were inspired by [Love Running](https://github.com/DaSHdotHub/Love-Runnin-on-CI-Template) project.
+- 8bit retro theming is just a personal thing.
+
+### **Media**
+
+- Images used as cover pictures were artificially generated from from: [StableDiffusion](https://stablediffusion.com/).
+- Images used for background styling were artificially generated from: [NightCafe](https://nightcafe.com/).
+- All Icons except the favicon were taken from [FontAwesome](https://fontawesome.com/.)
+- The FavIcon was chosen from [FlatIcon](https://www.flaticon.com/free-icons/storytelling)
