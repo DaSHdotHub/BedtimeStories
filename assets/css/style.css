@@ -39,6 +39,10 @@ header a {
     font-weight: 600;
 }
 
+header label {
+    display: none;
+}
+
 /* Enable some room over the icon */
 header .fa-solid,
 header .fa-regular {
@@ -144,4 +148,15 @@ footer div {
 }
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+    header label {
+        display: grid;
+        text-align: center;
+        font-size: larger;
+    }
+
+    header .fa-solid,
+    header .fa-regular {
+        margin: 10px 30px;
+    }
+}
