@@ -64,9 +64,6 @@ header .fa-regular {
     color: #ffffff;
 }
 
-
-
-
 h1 {
     padding: 10px 20px;
 }
@@ -104,6 +101,7 @@ footer div {
     position: relative;
 }
 
+/* Here starts the feedback page styling*/
 #feedback {
     height: 840px;
     width: 100%;
@@ -130,6 +128,7 @@ footer div {
 
 /* Main feedback input*/
 #feedback_text {
+    text-align: start;
     height: 33vw;
     width: 66vw;
 }
