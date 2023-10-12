@@ -32,7 +32,54 @@
     </header>
 
     <main>
-      <section>Sec1</section>
+      <section id="feedback">
+        <form
+          id="signup-form"
+          method="POST"
+          action="https://formdump.codeinstitute.net"
+        >
+          <h2>Feedback</h2>
+          <label for="first_name">First Name: </label>
+          <input
+            id="first_name"
+            name="first_name"
+            type="text"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="last_name">Last Name: </label>
+          <input
+            id="last_name"
+            name="last_name"
+            type="text"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="email_address">Email Address: </label>
+          <input
+            id="email_address"
+            name="email_address"
+            type="email"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="feedback_text">Your feedback: </label>
+          <br />
+          <input
+            id="feedback_text"
+            name="feedback_text"
+            type="text"
+            class="text-input"
+            required
+          />
+          <br />
+
+          <button class="submit-button" type="submit">Submit</button>
+        </form>
+      </section>
     </main>
 
     <footer>

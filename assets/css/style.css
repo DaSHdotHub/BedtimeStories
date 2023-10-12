@@ -39,16 +39,18 @@ header a {
     font-weight: 600;
 }
 
+/* Navigational symbols to show in one row */
 #menu {
     width: 100px;
     display: flex;
     flex-direction: row;
     align-items: baseline;
     justify-content: space-evenly;
+    list-style-type: none;
 }
 
 h1 {
-    padding: 10px 30px;
+    padding: 10px 20px;
 }
 
 main {
@@ -78,8 +80,15 @@ footer div {
 }
 
 #intro {
-    height: 800px;
+    height: 840px;
     width: 100%;
     background: url("../img/NightSky8bit.webp") no-repeat center top/cover;
+    position: relative;
+}
+
+#feedback {
+    height: 840px;
+    width: 100%;
+    background: url("../img/StarrySky.webp") no-repeat right top/cover;
     position: relative;
 }
