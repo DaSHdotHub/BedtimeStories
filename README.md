@@ -8,7 +8,11 @@
 
 ### [**Technologies**](#technologiy-aa)
 
-### [**Responsive Design**](#responsive_design-aa)
+### [**Responsive Design and Preview**](#responsive_design-aa)
+
+- [Header](#header)
+- [Preview](#preview)
+- [IAmResponsive](#I-am-responsive)
 
 ### [**Quality Control**](#quality-control-aa)
 
@@ -43,7 +47,44 @@ charming to the reader through sheer simplicity and old fashioned retro styling.
 
 ## <a id="responsive_design-aa"></a>**Responsive Design**
 
+### **Header**
+
+- On smaller devices the header will show besides the Logo only three small symbols
+  for navigation. This changes however when a bigger screen is present, the labels
+  are than also shown for convinience.<br>
+  ![Header on small devices](assets/img/docs/small_header.png)
+  ![Header on tablet devices and bigger](assets/img/docs/big_header.png)
+- Also the active page is circled on the connected symbol.
+- Design-Language, inuitive approach. The icons as shown do represent the interaction the
+  user can expect when clicking on them.
+
+### **I am responsive\***
+
 ![Am I Responsive](assets/img/docs/am-i-responsive.png)
+
+### **Preview**
+
+- **Mobile Phone**
+  <details>
+  <summary>index.html
+  </summary>
+
+  ![Preview Index Page Mobile](/assets/img/docs/mobile_iPhoneXR_index.png)
+  </details>
+
+  <details>
+  <summary>library.html
+  </summary>
+
+  ![Preview Library Page Mobile](/assets/img/docs/mobile_iPhoneXR_library.png)
+  </details>
+
+  <details>
+  <summary>feedback.html
+  </summary>
+
+  ![Preview Feedback Page Mobile](/assets/img/docs/mobile_iPhoneXR_feedback.png)
+  </details>
 
 ## <a id="quality-control-aa"></a>**Quality Control**
 
