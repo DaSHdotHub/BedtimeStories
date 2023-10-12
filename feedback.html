@@ -46,19 +46,19 @@
         <ul id="menu">
           <li>
             <label for="home">Home</label>
-            <a href="index.html" name="home"
+            <a href="index.html" id="home"
               ><i class="fa-solid fa-house fa-lg"></i
             ></a>
           </li>
           <li>
             <label for="library">Library</label>
-            <a href="library.html" name="library"
+            <a href="library.html" id="library"
               ><i class="fa-solid fa-book-open fa-lg"></i
             ></a>
           </li>
           <li>
             <label for="feedback">Feedback</label>
-            <a href="feedback.html" class="active" name="feedback"
+            <a href="feedback.html" class="active" id="feedback"
               ><i class="fa-regular fa-pen-to-square fa-lg"></i
             ></a>
           </li>
@@ -67,11 +67,12 @@
     </header>
 
     <main>
-      <section id="feedback">
+      <section id="feedback-page">
         <form
           id="feedback-form"
           method="POST"
           action="https://formdump.codeinstitute.net"
+          target="_blank"
         >
           <h2>What did you enjoy most about the short stories?</h2>
           <label for="first_name">First Name: </label>
@@ -106,7 +107,6 @@
           <textarea
             id="feedback_text"
             name="feedback_text"
-            type="text"
             class="text-input"
             required
           ></textarea>
