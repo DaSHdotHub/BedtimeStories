@@ -11,6 +11,9 @@ goes beyond plain black text on white background.
 ## Motivation
 
 ```text
+One of the thing I do most on a regulary basis is reading a good night story to my son.
+As marvelous as books are, sometimes there is no possibilty to bring them along on a
+longer roadtrip.
 
 ```
 
@@ -51,5 +54,8 @@ python3 -m http.server
 ```text
 This website was created with the help of following template from CodeInstitute:
 https://github.com/Code-Institute-Solutions/readme-template
+CSS was inspired by the walkthrough project: Love Running
+https://github.com/Code-Institute-Org/ci-full-template
+Artwork was created with NightCafe.
 
 ```
