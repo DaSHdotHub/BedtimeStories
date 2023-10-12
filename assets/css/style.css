@@ -100,11 +100,52 @@ footer div {
 
 }
 
-#intro {
+/* Home (index.html) styling*/
+#topic {
     height: 840px;
     width: 100%;
     background: url("../img/NightSky8bit.webp") no-repeat center top/cover;
     position: relative;
+}
+
+#topic-question {
+    display: block;
+    position: fixed;
+    top: 50vw;
+    left: 33vw;
+    width: auto;
+    height: auto;
+    background-color: rgba(253, 165, 120, 0.9);
+    color: #ffffff;
+    border: 5px dashed rgba(176, 57, 78, 1);
+    border-radius: 8px;
+    font-size: larger;
+
+}
+
+#reasons {
+    background: rgba(22, 0, 39, 1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#reasons div {
+    color: #fafafa;
+    background: rgba(42, 7, 70, 1);
+    padding: 12px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: #ffffff 2px groove;
+    border-radius: 7%;
+    font-size: larger;
+}
+
+#reasons h3 {
+    color: #fafafa;
+    text-align: center;
+    font-weight: 700;
 }
 
 /* Here starts the feedback page styling*/
@@ -151,6 +192,10 @@ footer div {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    header a {
+        font-size: x-large;
+    }
+
     header label {
         display: grid;
         text-align: center;
