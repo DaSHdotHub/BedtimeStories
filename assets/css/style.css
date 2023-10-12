@@ -92,3 +92,35 @@ footer div {
     background: url("../img/StarrySky.webp") no-repeat right top/cover;
     position: relative;
 }
+
+#feedback-form>h2 {
+    letter-spacing: 1.5px;
+    color: #fafafa;
+}
+
+#feedback-form {
+    position: relative;
+    text-align: right;
+    top: 45%;
+    margin-left: 15vw;
+    color: #ffffff;
+    padding: 20px;
+    background-color: rgba(44, 44, 44, 0.7);
+    width: 85vw;
+
+}
+
+/* Main feedback input*/
+#feedback_text {
+    height: 33vw;
+    width: 66vw;
+}
+
+.submit-button {
+    border-radius: 5px;
+    background-color: #e49400;
+    color: #fafafa;
+    padding: 15px 20px;
+    margin-top: 5px;
+    width: 65vw;
+}
