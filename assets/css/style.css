@@ -39,6 +39,20 @@ header a {
     font-weight: 600;
 }
 
+/* Enable some room over the icon */
+header .fa-solid,
+header .fa-regular {
+    padding: 8px;
+}
+
+/* Set active navigational item */
+.active {
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    border-radius: 25%;
+}
+
 /* Navigational symbols to show in one row */
 #menu {
     width: 100px;
@@ -47,7 +61,11 @@ header a {
     align-items: baseline;
     justify-content: space-evenly;
     list-style-type: none;
+    color: #ffffff;
 }
+
+
+
 
 h1 {
     padding: 10px 20px;
@@ -116,6 +134,7 @@ footer div {
     width: 66vw;
 }
 
+/* Submit Button */
 .submit-button {
     border-radius: 5px;
     background-color: #e49400;
