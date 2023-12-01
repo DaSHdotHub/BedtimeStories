@@ -126,7 +126,7 @@ By forking the GitHub Repository we can make a copy of the original repository t
 
 - Make sure python3 is installed.<br>
 - Inside or outside an IDE run following command from the root directory of the project:<br>
-  <code>phyton3 -m http.server</code>
+  <code>python3 -m http.server</code>
 
 ## <a id="credits-aa"></a>**Credits**
 
