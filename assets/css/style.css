@@ -150,6 +150,37 @@ footer div {
 }
 
 /* Here starts the library page styling */
+
+.cover-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+.cover-container label {
+    position: absolute;
+    top: 15%;
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%); /* Adjust for centering */
+    color: #ffffff; /* Ensure high contrast */
+    background-color: rgba(229, 229, 229, 0.657);
+    padding: 30px;
+    min-height: 60px;
+    min-width: 300px;
+    border-radius: 5px;
+    z-index: 10; /* Ensure it's above the image */
+    font-size: 1.5rem; /* Adjust size as needed */
+    font-weight: 500;
+    font-family: 'Pixelify Sans', sans-serif;
+    display: block; /* Override any 'display: none' */
+    text-align: center; /* Center text */
+    text-shadow: 1px 1px 2px black;
+    white-space: normal; /* Allows text to wrap */
+    word-wrap: break-word; /* Allows long words to break and wrap to the next line */
+    overflow-wrap: break-word; /* Ensures overflow text is broken and wrapped */
+}
+
 #covers {
     line-height: 0;
 }
@@ -159,16 +190,6 @@ footer div {
     line-height: 0;
     position: relative;
 }
-
-.covers label {
-    position: absolute;
-    bottom: 10px;
-    right: 45%;
-    z-index: 99;
-    color: #fafafa;
-    font-weight: 700;
-}
-
 
 /* Here starts the feedback page styling*/
 #feedback-page {
