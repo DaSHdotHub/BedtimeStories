@@ -111,14 +111,18 @@ footer div {
     left: 33vw;
     width: auto;
     height: auto;
-    background-color: rgba(253, 165, 120, 0.9);
     color: #ffffff;
     border: 5px dashed rgba(176, 57, 78, 1);
     border-radius: 8px;
 }
 
+#topic-question h1 {
+    background-color: rgba(253, 165, 120, 0.9);
+}
+
 #topic-question h2 {
     padding: 10px 30px;
+    background-color: rgba(253, 165, 120, 0.9);
 }
 
 #reasons {
@@ -196,11 +200,6 @@ footer div {
     position: relative;
 }
 
-#feedback-form>h2 {
-    letter-spacing: 1.5px;
-    color: #fafafa;
-}
-
 #feedback-form {
     position: relative;
     text-align: right;
@@ -210,7 +209,21 @@ footer div {
     padding: 20px;
     background-color: rgba(44, 44, 44, 0.7);
     width: 85vw;
+}
 
+#feedback-form>h2 {
+    letter-spacing: 1.5px;
+    color: #fafafa;
+    background-color: transparent;
+}
+
+#feedback-form>label {
+    background-color: transparent;
+}
+
+#feedback-form>input,
+#feedback-form>textarea {
+    background-color: white;
 }
 
 /* Main feedback input*/
