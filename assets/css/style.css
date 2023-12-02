@@ -62,7 +62,7 @@ header .fa-regular {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    justify-content: space-evenly;
+    justify-content: space-around;
     list-style-type: none;
     color: #ffffff;
 }
@@ -82,7 +82,6 @@ main {
 footer {
     height: fit-content;
     width: 100%;
-    background-color: #160027;
     color: #ffffff;
 }
 
@@ -233,6 +232,15 @@ footer div {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
+    header {
+        justify-content: space-around;
+    }
+
+    h1 {
+        padding: 10px;
+    }
+
     header a {
         font-size: x-large;
     }
@@ -246,6 +254,10 @@ footer div {
     header .fa-solid,
     header .fa-regular {
         margin: 10px 30px;
+    }
+
+    ul#menu{
+        width: fit-content;
     }
 
     main {
