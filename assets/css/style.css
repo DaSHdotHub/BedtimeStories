@@ -160,7 +160,7 @@ footer div {
 }
 
 .cover-container label,
-.close-button  {
+.close-button {
     position: absolute;
     top: 15%;
     left: 50%;
@@ -207,9 +207,9 @@ footer div {
     top: 0;
     left: 0;
     width: 100%;
-    margin: auto; 
+    margin: auto;
     height: 100%;
-    overflow-y: auto; 
+    overflow-y: auto;
     background: rgba(0, 0, 0, 0.8);
     color: white;
     padding: 20px;
@@ -218,18 +218,17 @@ footer div {
     word-wrap: break-word;
     overflow-wrap: break-word;
     text-align: left;
-    line-height: 1.6; 
+    line-height: 1.6;
     z-index: 100;
-  }
-  
+}
 
-#textPussInBoots:target{
+
+#textPussInBoots:target,
+#textSnowWhite:target,
+#textHanselAndGretel:target {
     display: block;
 }
 
-#textSnowWhite:target{
-    display: block;
-}
 /* Here starts the feedback page styling*/
 #feedback-page {
     height: 840px;
