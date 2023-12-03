@@ -227,6 +227,9 @@ footer div {
     display: block;
 }
 
+#textSnowWhite:target{
+    display: block;
+}
 /* Here starts the feedback page styling*/
 #feedback-page {
     height: 840px;
