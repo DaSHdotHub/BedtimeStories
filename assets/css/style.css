@@ -355,8 +355,15 @@ footer div {
         max-width: 530px;
     }
 
+    .cover {
+        max-width: 768px;
+        max-height: 744px;
+        padding: 5%;
+        border-radius: 20%;
+    }
+
     #covers {
-        column-count: 3;
+        column-count: 2;
         column-gap: 0;
     }
 }
