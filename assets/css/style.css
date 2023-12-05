@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant&family=Pixelify+Sans:wght@400;500;600&display=swap');
 
+:root {
+    --wine-red: rgba(142, 39, 72, 0.9);
+    --font-color: #ffffff;
+    --background-color-one: rgba(42, 7, 70, 1);
+    --background-color-two: rgba(229, 229, 229, 0.657);
+    --background-color-three: rgba(43, 43, 43, 0.847);
+    --button-color: #e49400;
+
+  }
 /* General styling*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: rgba(42, 7, 70, 1);
+    background: var(--background-color-one);
 }
 
 body {
@@ -30,7 +39,7 @@ header {
 header a {
     text-transform: uppercase;
     letter-spacing: -2px;
-    color: #ffffff;
+    color: var(--font-color);
     text-decoration: none;
     font-family: 'Pixelify Sans', sans-serif;
     font-weight: 600;
@@ -50,9 +59,9 @@ header .fa-regular {
 
 /* Set active navigational item */
 .active {
-    border-top: 2px solid #ffffff;
-    border-left: 2px solid #ffffff;
-    border-right: 2px solid #ffffff;
+    border-top: 2px solid var(--font-color);
+    border-left: 2px solid var(--font-color);
+    border-right: 2px solid var(--font-color);
     border-radius: 25%;
 }
 
@@ -64,7 +73,7 @@ header .fa-regular {
     align-items: baseline;
     justify-content: space-around;
     list-style-type: none;
-    color: #ffffff;
+    color: var(--font-color);
 }
 
 h1 {
@@ -83,7 +92,7 @@ footer {
     margin-top: auto;
     height: fit-content;
     width: 100%;
-    color: #ffffff;
+    color: var(--font-color);
     margin-top: auto;
 }
 
@@ -113,41 +122,43 @@ footer div {
     left: 33vw;
     width: auto;
     height: auto;
-    color: #ffffff;
-    border: 5px dashed rgba(176, 57, 78, 1);
+    color: var(--font-color);
+    border: 5px dashed var(--wine-red);
     border-radius: 8px;
 }
 
 #topic-question h2 {
-    background-color: rgba(253, 165, 120, 0.9);
+    background-color: var(--wine-red);
+    font-size: xx-large;
 }
 
 #topic-question h3 {
     padding: 10px 30px;
-    background-color: rgba(253, 165, 120, 0.9);
+    background-color: var(--wine-red);
+    font-size: x-large;
 }
 
 #reasons {
-    background: rgba(22, 0, 39, 1);
+    background: var(--background-color-one);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 #reasons div {
-    color: #fafafa;
-    background: rgba(42, 7, 70, 1);
+    color: var(--font-color);
+    background: var(--background-color-one);
     padding: 12px;
     text-align: center;
     flex-basis: 200px;
     flex-grow: 1;
-    border: #ffffff 2px groove;
+    border: var(--font-color) 2px groove;
     border-radius: 7%;
     font-size: larger;
 }
 
 #reasons h3 {
-    color: #fafafa;
+    color: var(--font-color);
     text-align: center;
     font-weight: 700;
 }
@@ -167,8 +178,8 @@ footer div {
     top: 10%;
     left: 50%;
     transform: translate(-50%);
-    color: #ffffff;
-    background-color: rgba(229, 229, 229, 0.657);
+    color: var(--font-color);
+    background-color: var(--background-color-two);
     padding: 30px;
     min-height: 60px;
     min-width: 300px;
@@ -212,7 +223,7 @@ footer div {
     height: 100%;
     overflow-y: scroll;
     background: rgba(0, 0, 0, 0.8);
-    color: white;
+    color: var(--font-color);
     padding: 20px;
     box-sizing: border-box;
     white-space: normal;
@@ -228,8 +239,8 @@ footer div {
     position: relative;
     left: 50%;
     transform: translate(-50%);
-    color: #ffffff;
-    background-color: rgba(229, 229, 229, 0.657);
+    color: var(--font-color);
+    background-color: var(--background-color-two);
     border-radius: 5px;
     z-index: 10;
     font-size: 1.5rem;
@@ -263,15 +274,15 @@ footer div {
     text-align: right;
     top: 40%;
     margin-left: 15vw;
-    color: #ffffff;
+    color: var(--font-color);
     padding: 20px;
-    background-color: rgba(44, 44, 44, 0.7);
+    background-color: var(--background-color-three);
     width: 85vw;
 }
 
 #feedback-form>h2 {
     letter-spacing: 1.5px;
-    color: #fafafa;
+    color: var(--font-color);
     background-color: transparent;
 }
 
@@ -286,7 +297,7 @@ footer div {
 }
 
 .feedback_input input {
-    background-color: #ffffff;
+    background-color: var(--font-color);
 }
 
 #feedback-form label {
@@ -294,7 +305,7 @@ footer div {
 }
 
 #feedback-form>textarea {
-    background-color: white;
+    background-color:var(--font-color);
 }
 
 /* Main feedback input*/
@@ -307,11 +318,12 @@ footer div {
 /* Submit Button */
 .submit-button {
     border-radius: 5px;
-    background-color: #e49400;
-    color: #fafafa;
+    background-color: var(--button-color);
+    color: var(--font-color);
     padding: 15px 20px;
     margin-top: 5px;
     width: 65vw;
+    font-family: 'Ysabeau Infant', sans-serif;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -349,7 +361,7 @@ footer div {
     }
 
     footer {
-        border: #ffffff 5px groove;
+        border: var(--font-color) 5px groove;
         border-radius: 10px;
     }
 
@@ -394,7 +406,7 @@ footer div {
     }
 
     .feedback_input input {
-        background-color: #ffffff;
+        background-color: var(--font-color);
         width: 66%;
     }
 
