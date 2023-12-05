@@ -248,7 +248,7 @@ footer div {
 #textRumpelstiltskin:target,
 #textFutureStories:target {
     display: block;
-} 
+}
 
 /* Here starts the feedback page styling*/
 #feedback-page {
@@ -275,11 +275,24 @@ footer div {
     background-color: transparent;
 }
 
-#feedback-form>label {
+.feedback_input {
+    display: flex;
+    background-color: transparent;
+    justify-content: right;
+}
+
+.feedback_input label {
     background-color: transparent;
 }
 
-#feedback-form>input,
+.feedback_input input {
+    background-color: #ffffff;
+}
+
+#feedback-form label {
+    background-color: transparent;
+}
+
 #feedback-form>textarea {
     background-color: white;
 }
@@ -335,25 +348,9 @@ footer div {
         padding-top: 77px;
     }
 
-    .cover-text {
-        text-align: center;
-    }
-
-    #feedback-form {
-        max-width: 600px;
-        margin-left: 20%;
-        margin-right: 20%;
-        bottom: 60px;
-        text-align: center;
-    }
-
-    #feedback_text {
-        max-width: 540px;
-        max-height: 220px;
-    }
-
-    .submit-button {
-        max-width: 530px;
+    footer {
+        border: #ffffff 5px groove;
+        border-radius: 10px;
     }
 
     .cover {
@@ -368,8 +365,44 @@ footer div {
         column-gap: 0;
     }
 
-    footer {
-        border: #ffffff 5px groove;
-        border-radius: 10px;
+    .cover-text {
+        text-align: center;
+    }
+
+    #feedback-form {
+        max-width: 600px;
+        margin-left: 20%;
+        margin-right: 20%;
+        bottom: 60px;
+        text-align: center;
+    }
+
+    .feedback_input {
+        display: flex;
+        padding: 0 5%;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+
+    .feedback_input label {
+        background-color: transparent;
+    }
+
+    .feedback_input input {
+        background-color: #ffffff;
+        width: 66%;
+    }
+
+    #feedback-form label {
+        background-color: transparent;
+    }
+
+    #feedback_text {
+        max-width: 540px;
+        max-height: 220px;
+    }
+
+    .submit-button {
+        max-width: 530px;
     }
 }
