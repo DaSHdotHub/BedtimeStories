@@ -36,7 +36,7 @@ header a {
     font-weight: 600;
 }
 
-header label {
+header p.navigation_label {
     font-family: 'Pixelify Sans', sans-serif;
     font-weight: 400;
     display: none;
@@ -118,11 +118,11 @@ footer div {
     border-radius: 8px;
 }
 
-#topic-question h1 {
+#topic-question h2 {
     background-color: rgba(253, 165, 120, 0.9);
 }
 
-#topic-question h2 {
+#topic-question h3 {
     padding: 10px 30px;
     background-color: rgba(253, 165, 120, 0.9);
 }
@@ -161,7 +161,7 @@ footer div {
     position: relative;
 }
 
-.cover-container label,
+.cover-container p,
 .close-button {
     position: absolute;
     top: 10%;
@@ -329,7 +329,7 @@ footer div {
         font-size: x-large;
     }
 
-    header label {
+    header p.navigation_label {
         display: grid;
         text-align: center;
         font-size: larger;
@@ -359,6 +359,11 @@ footer div {
         padding: 5%;
         border-radius: 20%;
     }
+
+    .cover-container p {
+        border-radius: 45%;
+    }
+
 
     #covers {
         column-count: 2;
