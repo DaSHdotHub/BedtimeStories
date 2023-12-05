@@ -83,6 +83,7 @@ footer {
     height: fit-content;
     width: 100%;
     color: #ffffff;
+    margin-top: auto;
 }
 
 footer div {
@@ -260,7 +261,7 @@ footer div {
 #feedback-form {
     position: relative;
     text-align: right;
-    top: 45%;
+    top: 40%;
     margin-left: 15vw;
     color: #ffffff;
     padding: 20px;
@@ -365,5 +366,10 @@ footer div {
     #covers {
         column-count: 2;
         column-gap: 0;
+    }
+
+    footer {
+        border: #ffffff 5px groove;
+        border-radius: 10px;
     }
 }
