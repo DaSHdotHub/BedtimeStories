@@ -1,425 +1,428 @@
-@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant&family=Pixelify+Sans:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant&family=Pixelify+Sans:wght@300;400;500;600&display=swap");
 
 :root {
-    --wine-red: rgba(142, 39, 72, 0.9);
-    --font-color: #ffffff;
-    --background-color-one: rgba(42, 7, 70, 1);
-    --background-color-two: rgba(229, 229, 229, 0.657);
-    --background-color-three: rgba(43, 43, 43, 0.847);
-    --button-color: #e49400;
-
-  }
+  --wine-red: rgba(142, 39, 72, 0.9);
+  --font-color: #ffffff;
+  --background-color-one: rgba(42, 7, 70, 1);
+  --background-color-two: rgba(229, 229, 229, 0.657);
+  --background-color-three: rgba(43, 43, 43, 0.847);
+  --button-color: #a15b00;
+}
 /* General styling*/
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    background: var(--background-color-one);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: var(--background-color-one);
 }
 
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
-    height: fit-content;
-    width: 100%;
-    align-items: center;
-    /* Header is atop and always shown*/
-    z-index: 99;
-    position: fixed;
-    /* Border */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  height: fit-content;
+  width: 100%;
+  align-items: center;
+  /* Header is atop and always shown*/
+  z-index: 99;
+  position: fixed;
+  /* Border */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 header a {
-    text-transform: uppercase;
-    letter-spacing: -2px;
-    color: var(--font-color);
-    text-decoration: none;
-    font-family: 'Pixelify Sans', sans-serif;
-    font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  color: var(--font-color);
+  text-decoration: none;
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 600;
 }
 
-header p.navigation_label {
-    font-family: 'Pixelify Sans', sans-serif;
-    font-weight: 400;
-    display: none;
+header .navigation_label {
+  display: none;
 }
 
 /* Enable some room over the icon */
 header .fa-solid,
 header .fa-regular {
-    padding: 8px;
+  padding: 8px;
 }
 
 /* Set active navigational item */
 .active {
-    border-top: 2px solid var(--font-color);
-    border-left: 2px solid var(--font-color);
-    border-right: 2px solid var(--font-color);
-    border-radius: 25%;
+  border-top: 2px solid var(--font-color);
+  border-left: 2px solid var(--font-color);
+  border-right: 2px solid var(--font-color);
+  border-radius: 25%;
 }
 
 /* Navigational symbols to show in one row */
 #menu {
-    width: 100px;
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: space-around;
-    list-style-type: none;
-    color: var(--font-color);
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+  list-style-type: none;
+  color: var(--font-color);
 }
 
 h1 {
-    padding: 10px 20px;
+  padding: 10px 20px;
 }
 
 main {
-    flex: 1 0 auto;
-    height: fit-content;
-    width: 100%;
-    font-family: 'Ysabeau Infant', sans-serif;
-    padding-top: 58px;
+  flex: 1 0 auto;
+  height: fit-content;
+  width: 100%;
+  font-family: "Ysabeau Infant", sans-serif;
+  padding-top: 58px;
 }
 
 footer {
-    margin-top: auto;
-    height: fit-content;
-    width: 100%;
-    color: var(--font-color);
-    margin-top: auto;
+  margin-top: auto;
+  height: fit-content;
+  width: 100%;
+  color: var(--font-color);
+  margin-top: auto;
 }
 
 footer div {
-    text-align: start;
-    font-family: 'Pixelify Sans', sans-serif;
-    font-weight: 400;
-    padding: 10px 5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-
+  text-align: start;
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 400;
+  padding: 10px 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /* Home (index.html) styling*/
 #topic {
-    height: 840px;
-    width: 100%;
-    background: url("../img/NightSky8bit.webp") no-repeat center top/cover;
-    position: relative;
+  height: 840px;
+  width: 100%;
+  background: url("../img/NightSky8bit.webp") no-repeat center top/cover;
+  position: relative;
 }
 
 #topic-question {
-    position: absolute;
-    top: 390px;
-    left: 33vw;
-    width: auto;
-    height: auto;
-    color: var(--font-color);
-    border: 5px dashed var(--wine-red);
-    border-radius: 8px;
+  position: absolute;
+  top: 390px;
+  left: 33vw;
+  width: auto;
+  height: auto;
+  color: var(--font-color);
+  border: 5px dashed var(--wine-red);
+  border-radius: 8px;
 }
 
 #topic-question h2 {
-    background-color: var(--wine-red);
-    font-size: xx-large;
+  background-color: var(--wine-red);
+  font-size: xx-large;
 }
 
 #topic-question h3 {
-    padding: 10px 30px;
-    background-color: var(--wine-red);
-    font-size: x-large;
+  padding: 10px 30px;
+  background-color: var(--wine-red);
+  font-size: x-large;
 }
 
 #reasons {
-    background: var(--background-color-one);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  background: var(--background-color-one);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 #reasons div {
-    color: var(--font-color);
-    background: var(--background-color-one);
-    padding: 12px;
-    text-align: center;
-    flex-basis: 200px;
-    flex-grow: 1;
-    border: var(--font-color) 2px groove;
-    border-radius: 7%;
-    font-size: larger;
+  color: var(--font-color);
+  background: var(--background-color-one);
+  padding: 12px;
+  text-align: center;
+  flex-basis: 200px;
+  flex-grow: 1;
+  border: var(--font-color) 2px groove;
+  border-radius: 7%;
+  font-size: larger;
 }
 
 #reasons h3 {
-    color: var(--font-color);
-    text-align: center;
-    font-weight: 700;
+  color: var(--font-color);
+  text-align: center;
+  font-weight: 700;
 }
 
 /* Here starts the library page styling */
 
 .cover-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 
 .cover-container p,
 .close-button {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%);
-    color: var(--font-color);
-    background-color: var(--background-color-two);
-    padding: 30px;
-    min-height: 60px;
-    min-width: 300px;
-    border-radius: 5px;
-    z-index: 10;
-    font-size: 1.5rem;
-    font-weight: 500;
-    font-family: 'Pixelify Sans', sans-serif;
-    display: block;
-    text-align: center;
-    text-shadow: 1px 1px 2px black;
-    white-space: normal;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  color: var(--font-color);
+  background-color: var(--background-color-two);
+  padding: 30px;
+  min-height: 60px;
+  min-width: 300px;
+  border-radius: 5px;
+  z-index: 10;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Pixelify Sans", sans-serif;
+  display: block;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .close-button {
-    top: 0%;
-    padding: 10px;
-    margin: 30px 0px;
-    min-height: 0px;
-    position: relative;
+  top: 0%;
+  padding: 10px;
+  margin: 30px 0px;
+  min-height: 0px;
+  position: relative;
 }
 
 #covers {
-    line-height: 0;
+  line-height: 0;
 }
 
 .cover {
-    width: 100%;
-    line-height: 0;
-    position: relative;
+  width: 100%;
+  line-height: 0;
+  position: relative;
 }
 
 .cover-text {
-    display: none;
-    position: fixed;
-    inset: 0;
-    width: 100%;
-    margin: auto;
-    height: 100%;
-    overflow-y: scroll;
-    background: rgba(0, 0, 0, 0.8);
-    color: var(--font-color);
-    padding: 20px;
-    box-sizing: border-box;
-    white-space: normal;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    text-align: left;
-    line-height: 1.6;
-    z-index: 100;
-    font-size: 1.5rem;
+  display: none;
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  overflow-y: scroll;
+  background: rgba(0, 0, 0, 0.8);
+  color: var(--font-color);
+  padding: 20px;
+  box-sizing: border-box;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-align: left;
+  line-height: 1.6;
+  z-index: 100;
+  font-size: 1.5rem;
 }
 
 .cover-text h2 {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-    color: var(--font-color);
-    background-color: var(--background-color-two);
-    border-radius: 5px;
-    z-index: 10;
-    font-size: 1.5rem;
-    font-weight: 500;
-    font-family: 'Pixelify Sans', sans-serif;
-    display: block;
-    text-align: center;
-    text-shadow: 1px 1px 2px black;
-    white-space: normal;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  color: var(--font-color);
+  background-color: var(--background-color-two);
+  border-radius: 5px;
+  z-index: 10;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Pixelify Sans", sans-serif;
+  display: block;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  white-space: normal;
 }
-
 
 #textPussInBoots:target,
 #textSnowWhite:target,
 #textHanselAndGretel:target,
 #textRumpelstiltskin:target,
 #textFutureStories:target {
-    display: block;
+  display: block;
 }
 
 /* Here starts the feedback page styling*/
 #feedback-page {
-    height: 840px;
-    width: 100%;
-    background: url("../img/StarrySky.webp") no-repeat right top/cover;
-    position: relative;
+  height: 840px;
+  width: 100%;
+  background: url("../img/StarrySky.webp") no-repeat right top/cover;
+  position: relative;
 }
 
 #feedback-form {
-    position: relative;
-    text-align: right;
-    top: 40%;
-    margin-left: 15vw;
-    color: var(--font-color);
-    padding: 20px;
-    background-color: var(--background-color-three);
-    width: 85vw;
+  position: relative;
+  text-align: right;
+  top: 40%;
+  margin-left: 15vw;
+  color: var(--font-color);
+  padding: 20px;
+  background-color: var(--background-color-three);
+  width: 85vw;
 }
 
-#feedback-form>h2 {
-    letter-spacing: 1.5px;
-    color: var(--font-color);
-    background-color: transparent;
+#feedback-form > h2 {
+  letter-spacing: 1.5px;
+  color: var(--font-color);
+  background-color: transparent;
 }
 
 .feedback_input {
-    display: flex;
-    background-color: transparent;
-    justify-content: right;
+  display: flex;
+  background-color: transparent;
+  justify-content: right;
 }
 
 .feedback_input label {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .feedback_input input {
-    background-color: var(--font-color);
+  background-color: var(--font-color);
 }
 
 #feedback-form label {
-    background-color: transparent;
+  background-color: transparent;
 }
 
-#feedback-form>textarea {
-    background-color:var(--font-color);
+#feedback-form > textarea {
+  background-color: var(--font-color);
 }
 
 /* Main feedback input*/
 #feedback_text {
-    text-align: start;
-    height: 33vw;
-    width: 66vw;
+  text-align: start;
+  height: 33vw;
+  width: 66vw;
 }
 
 /* Submit Button */
 .submit-button {
-    border-radius: 5px;
-    background-color: var(--button-color);
-    color: var(--font-color);
-    padding: 15px 20px;
-    margin-top: 5px;
-    width: 65vw;
-    font-family: 'Ysabeau Infant', sans-serif;
+  border-radius: 5px;
+  background-color: var(--button-color);
+  color: var(--font-color);
+  padding: 15px 20px;
+  margin-top: 5px;
+  width: 65vw;
+  font-family: "Ysabeau Infant", sans-serif;
+  font-size: larger;
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+  header {
+    justify-content: space-around;
+  }
 
-    header {
-        justify-content: space-around;
-    }
+  h1 {
+    padding: 10px;
+  }
 
-    h1 {
-        padding: 10px;
-    }
+  header a {
+    font-size: x-large;
+  }
 
-    header a {
-        font-size: x-large;
-    }
+  header .navigation_label {
+    display: grid;
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: medium;
+  }
 
-    header p.navigation_label {
-        display: grid;
-        text-align: center;
-        font-size: larger;
-    }
+  header .fa-solid,
+  header .fa-regular {
+    margin: 10px 30px;
+  }
 
-    header .fa-solid,
-    header .fa-regular {
-        margin: 10px 30px;
-    }
+  ul#menu {
+    width: fit-content;
+  }
 
-    ul#menu {
-        width: fit-content;
-    }
+  main {
+    padding-top: 77px;
+  }
 
-    main {
-        padding-top: 77px;
-    }
+  footer {
+    border: var(--font-color) 5px groove;
+    border-radius: 10px;
+  }
 
-    footer {
-        border: var(--font-color) 5px groove;
-        border-radius: 10px;
-    }
+  .cover {
+    padding: 5%;
+    border-radius: 20%;
+  }
 
-    .cover {
-        max-width: 768px;
-        max-height: 744px;
-        padding: 5%;
-        border-radius: 20%;
-    }
+  .cover-container p {
+    border-radius: 45%;
+  }
 
-    .cover-container p {
-        border-radius: 45%;
-    }
+  .cover-label {
+    min-width: 345px;
+    max-width: 356px;
+    width: 100%;
+    height: 100%;
+    max-width: 768px;
+    max-height: 786px;
+  }
 
+  #covers {
+    column-count: 2;
+    column-gap: 0;
+  }
 
-    #covers {
-        column-count: 2;
-        column-gap: 0;
-    }
+  .cover-text {
+    text-align: center;
+  }
 
-    .cover-text {
-        text-align: center;
-    }
+  #feedback-form {
+    max-width: 600px;
+    margin-left: 20%;
+    margin-right: 20%;
+    bottom: 60px;
+    text-align: center;
+  }
 
-    #feedback-form {
-        max-width: 600px;
-        margin-left: 20%;
-        margin-right: 20%;
-        bottom: 60px;
-        text-align: center;
-    }
+  .feedback_input {
+    display: flex;
+    padding: 0 5%;
+    justify-content: space-between;
+    background-color: transparent;
+  }
 
-    .feedback_input {
-        display: flex;
-        padding: 0 5%;
-        justify-content: space-between;
-        background-color: transparent;
-    }
+  .feedback_input label {
+    background-color: transparent;
+  }
 
-    .feedback_input label {
-        background-color: transparent;
-    }
+  .feedback_input input {
+    background-color: var(--font-color);
+    width: 66%;
+  }
 
-    .feedback_input input {
-        background-color: var(--font-color);
-        width: 66%;
-    }
+  #feedback-form label {
+    background-color: transparent;
+  }
 
-    #feedback-form label {
-        background-color: transparent;
-    }
+  #feedback_text {
+    max-width: 540px;
+    max-height: 220px;
+  }
 
-    #feedback_text {
-        max-width: 540px;
-        max-height: 220px;
-    }
-
-    .submit-button {
-        max-width: 530px;
-    }
+  .submit-button {
+    max-width: 530px;
+  }
 }
