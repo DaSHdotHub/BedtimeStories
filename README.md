@@ -71,7 +71,7 @@ charming to the reader through sheer simplicity and old fashioned retro styling.
 ##### **Mobile**
   |Index.html|Library.html|Overlay in library.html|Feedback.html|
   |----|----|----|----|
-  |![Index.html on mobile](assets/img/docs/mobile_index.webp)|[Library.html on mobile](assets/img/docs/mobile_library.webp)|[Library overlay element on mobile](assets/img/docs/mobile_library_overlay.webp)|[Feedback.html on mobile](assets/img/docs/mobile_feedback.webp)|
+  |![Index.html on mobile](assets/img/doc/mobile_index.webp)|![Library.html on mobile](assets/img/doc/mobile_library.webp)|![Library overlay element on mobile](assets/img/doc/mobile_library_overlay.webp)|![Feedback.html on mobile](assets/img/doc/mobile_feedback.webp)|
 
 
 ##### **Desktop**
@@ -102,7 +102,7 @@ charming to the reader through sheer simplicity and old fashioned retro styling.
 
 |Theme coloring|Font colorining|Interruption El.|Button coloring|
 |-----------|------------|------------|------------|
-|![Magenta blue as background](assets/img/docs/colors/2a0746.svg)|![White as main font color](assets/img/docs/colors/ffffff.svg)|![Wine red](assets/img/docs/colors/8e2748.svg)|![A medium dark shade of brown used for button's](assets/img/docs/colors/a15b00.svg)|
+|![Magenta blue as background](assets/img/doc/colors/2a0746.svg)|![White as main font color](assets/img/doc/colors/ffffff.svg)|![Wine red](assets/img/doc/colors/8e2748.svg)|![A medium dark shade of brown used for button's](assets/img/doc/colors/a15b00.svg)|
 
 
 ## Technologies, Libraries & Sources
