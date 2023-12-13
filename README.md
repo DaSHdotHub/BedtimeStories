@@ -14,10 +14,8 @@ goes beyond plain black text on white background.
 
 One of the thing I do most on a regulary basis is reading a good night story to my son.
 As marvelous as books are, sometimes there is no possibilty to bring them along on a
-longer trip. A website like [Bedtime Stories](https://dashdothub.github.io/BedtimeStories/) (Deployed on github pages) is
+longer trip. A website like [Bedtime Stories - deplyed on GitHub pages -](https://dashdothub.github.io/BedtimeStories/) is
 charming to the reader through sheer simplicity and old fashioned retro styling.
-
-## <a id="responsive_design-aa"></a>**Responsive Design**
 
 ## **Table of Content**
 
@@ -46,6 +44,8 @@ charming to the reader through sheer simplicity and old fashioned retro styling.
 
 - [Content](#content)
 - [Media](#media)
+
+## <a id="responsive_design-aa"></a>**Responsive Design**
 
 ### **Header**
 
