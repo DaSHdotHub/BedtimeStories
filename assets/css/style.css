@@ -85,25 +85,6 @@ main {
   padding-top: 58px;
 }
 
-footer {
-  margin-top: auto;
-  height: fit-content;
-  width: 100%;
-  color: var(--font-color);
-  margin-top: auto;
-}
-
-footer div {
-  text-align: start;
-  font-family: "Pixelify Sans", sans-serif;
-  font-weight: 400;
-  padding: 10px 5%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
 /* Home (index.html) styling*/
 #topic {
   height: 840px;
@@ -425,4 +406,50 @@ footer div {
   .submit-button {
     max-width: 530px;
   }
+}
+
+
+
+/*Outer footer styling*/
+footer {
+  height: fit-content;
+  width: 100%;
+  color: var(--font-color);
+}
+
+/*Inner footer styling*/
+footer div {
+  text-align: start;
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 400;
+  padding: 10px 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .copyright {
+  font-family: sans-serif;
+}
+
+/* The icons container */
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: visible;
+  padding: 0 20px;
+}
+
+/* Regular state - Icon size */
+.icon {
+  color: var(--font-color);
+  transition: transform 0.3s ease;
+  margin: 10px;
+}
+
+/* Hover state - Icon enlarged */
+.icon:hover {
+  transform: scale(1.5);
 }
