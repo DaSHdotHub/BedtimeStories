@@ -14,8 +14,11 @@ goes beyond plain black text on white background.
 
 One of the thing I do most on a regulary basis is reading a good night story to my son.
 As marvelous as books are, sometimes there is no possibilty to bring them along on a
-longer trip. A website like [Bedtime Stories - deplyed on GitHub pages -](https://dashdothub.github.io/BedtimeStories/) is
+longer trip. A website like [Bedtime Stories - deployed on GitHub pages -](https://dashdothub.github.io/BedtimeStories/) is
 charming to the reader through sheer simplicity and old fashioned retro styling.
+
+![Am I Responsive](assets/img/docs/am-i-responsive.png)
+
 
 ## **Table of Content**
 
@@ -45,6 +48,50 @@ charming to the reader through sheer simplicity and old fashioned retro styling.
 - [Content](#content)
 - [Media](#media)
 
+## Features
+
+### Future Features (not planned)
+
+- Add more short stories to the library.
+- Add "reading out" feature
+- Gather Feedback and actually send it to an address where it gets processed
+
+## Design
+
+- Creating immersion through background colouring
+- Gamification through using special fonts like Pixelify and underlining it with corresponding *pixeled* background images.
+
+### **Fonts**
+
+* Ysabeau Infant <br>
+
+      A serif font which was used in this project for displaying text's and paragraph elemnts. Also used for the short stories. You would find a serif font rather often in printed out fairy-tales.
+
+* Pixelify Sans <br>
+
+      This 'special' is used for the enhancement of the *gamification* feeling, headings, header and footer do contain this font. Also this font was used for the headings seen on the covers on the library page.
+
+
+### **Colors**
+
+| Theme color | Font coloring | Interruption element color | Button color |
+|----------------------------------------|---------------------------------------------|-------------|----------|--------|
+|![Magenta blue as background](assets/img/doc/colors/2a0746.svg)|![White as main font color](assets/img/doc/colors/ffffff.svg)|![Wine red](assets/img/doc/colors/8e27748.svg)|![A medium dark shade of brown used for button's](assets/img/doc/colors/a15b00.svg)|
+
+## Technologies, Libraries & Sources
+
+### **Technologies**
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+### **Libraries & Sources**
+
+- [Git](https://git-scm.com/) - For version control.
+- [GitHub](https://github.com/) - Deployment of the website and storing the files online.
+- [Google Fonts](https://fonts.google.com/) - Imported main fonts for the website.
+- [Am I Responsive](https://ui.dev/amiresponsive) - Mockup responsive image for the README file.
+
 ## <a id="responsive_design-aa"></a>**Responsive Design**
 
 ### **Header**
@@ -60,7 +107,6 @@ charming to the reader through sheer simplicity and old fashioned retro styling.
 
 ### **I am responsive\***
 
-![Am I Responsive](assets/img/docs/am-i-responsive.png)
 
 ### **Preview**
 
@@ -141,5 +187,8 @@ By forking the GitHub Repository we can make a copy of the original repository t
 
 - Images used as cover pictures were artificially generated from from: [StableDiffusion](https://stablediffusion.com/).
 - Images used for background styling were artificially generated from: [NightCafe](https://nightcafe.com/).
+- Resizing and converting images: [Simple Image Resizer](https://www.simpleimageresizer.com)
 - All Icons except the favicon were taken from [FontAwesome](https://fontawesome.com/.)
 - The FavIcon was chosen from [FlatIcon](https://www.flaticon.com/free-icons/storytelling)
+- Creating Responsive Mock [UI.dev](https://ui.dev/amiresponsive)
+- Color panes for this documentation [Encycolorpedia](https://encycolorpedia.com/)
