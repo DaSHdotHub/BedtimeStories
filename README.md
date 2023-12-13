@@ -17,7 +17,7 @@ As marvelous as books are, sometimes there is no possibilty to bring them along 
 longer trip. A website like [Bedtime Stories - deployed on GitHub pages -](https://dashdothub.github.io/BedtimeStories/) is
 charming to the reader through sheer simplicity and old fashioned retro styling.
 
-![Am I Responsive](assets/img/docs/am-i-responsive.webp)
+![Am I Responsive](assets/img/doc/am-i-responsive.webp)
 
 
 ## **Table of Content**
@@ -28,17 +28,19 @@ charming to the reader through sheer simplicity and old fashioned retro styling.
 
 ## [**Features**](#features)
 
-### [**Responsive Desgin**](#responsive-design)
+- [**Preview mobile**](#preview-mobile)
 
-#### [**Preview**](#preview)
+- [**Preview desktop**](#preview-desktop)
 
-### [**Future Features**](#future-features)
+- [**Responsive Desgin Elements**](#responsive-design)
+
+- [**Future Features**](#future-features)
 
 ## [**Design Principles**](#design-principles)
 
-### [**Fonts**](#fonts)
+- [**Fonts**](#fonts)
 
-### [**Coloring**](#coloring)
+- [**Coloring**](#coloring)
 
 ## [**Technologies, Libraries & Sources**](#technologiy-aa)
 
@@ -66,15 +68,34 @@ charming to the reader through sheer simplicity and old fashioned retro styling.
 
 ### **Responsive Design**
 
-#### **Preview**
+#### **Preview mobile**
 
-##### **Mobile**
-  |Index.html|Library.html|Overlay in library.html|Feedback.html|
-  |----|----|----|----|
-  |![Index.html on mobile](assets/img/doc/mobile_index.webp)|![Library.html on mobile](assets/img/doc/mobile_library.webp)|![Library overlay element on mobile](assets/img/doc/mobile_library_overlay.webp)|![Feedback.html on mobile](assets/img/doc/mobile_feedback.webp)|
+  | Index.html                                                | Library.html                                                  | Overlay in Library.html                                                          | Feedback.html                                                   |
+  | --------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+  | ![Index.html on mobile](assets/img/doc/mobile_index.webp) | ![Library.html on mobile](assets/img/doc/mobile_library.webp) | ![Library overlay element on mobile](assets/img/doc/mobile_library_overlay.webp) | ![Feedback.html on mobile](assets/img/doc/mobile_feedback.webp) |
 
+#### **Preview desktop**
 
-##### **Desktop**
+In the following the desktop presentation is shown of each page, clicking on one or all of the pane elements will display the content behind it.
+
+<details>
+<summary>Index.html</summary>
+<img src="assets/img/doc/desktop_index.webp" alt="Index.html as introduction page">
+</details>
+<details>
+<summary>Libraray.html</summary>
+<img src="assets/img/doc/desktop_library.webp" alt="library.html showing the covers of the short stories">
+</details>
+<details>
+<summary>Overlay in Libraray.html</summary>
+<img src="assets/img/doc/desktop_library_overlay.webp" alt="showing a short story of a clicked cover">
+</details>
+<details>
+<summary>Feedback.html</summary>
+<img src="assets/img/doc/desktop_feedback.webp" alt="feedback.html as information gathering page">
+</details>
+
+### **Responsive Desgin Elements**
 
 ### **Future Features (not planned)**
 
@@ -100,9 +121,9 @@ charming to the reader through sheer simplicity and old fashioned retro styling.
 
 ### **Coloring**
 
-|Theme coloring|Font colorining|Interruption El.|Button coloring|
-|-----------|------------|------------|------------|
-|![Magenta blue as background](assets/img/doc/colors/2a0746.svg)|![White as main font color](assets/img/doc/colors/ffffff.svg)|![Wine red](assets/img/doc/colors/8e2748.svg)|![A medium dark shade of brown used for button's](assets/img/doc/colors/a15b00.svg)|
+| Theme coloring                                                  | Font colorining                                               | Interruption El.                              | Button coloring                                                                     |
+| --------------------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------- | ----------------------------------------------------------------------------------- |
+| ![Magenta blue as background](assets/img/doc/colors/2a0746.svg) | ![White as main font color](assets/img/doc/colors/ffffff.svg) | ![Wine red](assets/img/doc/colors/8e2748.svg) | ![A medium dark shade of brown used for button's](assets/img/doc/colors/a15b00.svg) |
 
 
 ## Technologies, Libraries & Sources
@@ -136,6 +157,7 @@ charming to the reader through sheer simplicity and old fashioned retro styling.
 
 
 ### **Preview**
+
 
 - **Mobile Phone**
   <details>
