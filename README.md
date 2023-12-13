@@ -17,7 +17,7 @@ As marvelous as books are, sometimes there is no possibilty to bring them along 
 longer trip. A website like [Bedtime Stories - deployed on GitHub pages -](https://dashdothub.github.io/BedtimeStories/) is
 charming to the reader through sheer simplicity and old fashioned retro styling.
 
-![Am I Responsive](assets/img/docs/am-i-responsive.png)
+![Am I Responsive](assets/img/docs/am-i-responsive.webp)
 
 
 ## **Table of Content**
@@ -26,9 +26,23 @@ charming to the reader through sheer simplicity and old fashioned retro styling.
 
 #### [**Motivation**](#motivation-aa)
 
-### [**Technologies**](#technologiy-aa)
+## [**Features**](#features)
 
-### [**Responsive Design and Preview**](#responsive_design-aa)
+### [**Responsive Desgin**](#responsive-design)
+
+#### [**Preview**](#preview)
+
+### [**Future Features**](#future-features)
+
+## [**Design Principles**](#design-principles)
+
+### [**Fonts**](#fonts)
+
+### [**Coloring**](#coloring)
+
+## [**Technologies, Libraries & Sources**](#technologiy-aa)
+
+## [**Responsive Design and Preview**](#responsive_design-aa)
 
 - [Header](#header)
 - [Preview](#preview)
@@ -50,13 +64,25 @@ charming to the reader through sheer simplicity and old fashioned retro styling.
 
 ## Features
 
-### Future Features (not planned)
+### **Responsive Design**
+
+#### **Preview**
+
+##### **Mobile**
+  |Index.html|Library.html|Overlay in library.html|Feedback.html|
+  |----|----|----|----|
+  |![Index.html on mobile](assets/img/docs/mobile_index.webp)|[Library.html on mobile](assets/img/docs/mobile_library.webp)|[Library overlay element on mobile](assets/img/docs/mobile_library_overlay.webp)|[Feedback.html on mobile](assets/img/docs/mobile_feedback.webp)|
+
+
+##### **Desktop**
+
+### **Future Features (not planned)**
 
 - Add more short stories to the library.
 - Add "reading out" feature
 - Gather Feedback and actually send it to an address where it gets processed
 
-## Design
+## Design principles
 
 - Creating immersion through background colouring
 - Gamification through using special fonts like Pixelify and underlining it with corresponding *pixeled* background images.
@@ -72,11 +98,12 @@ charming to the reader through sheer simplicity and old fashioned retro styling.
       This 'special' is used for the enhancement of the *gamification* feeling, headings, header and footer do contain this font. Also this font was used for the headings seen on the covers on the library page.
 
 
-### **Colors**
+### **Coloring**
 
-| Theme color | Font coloring | Interruption element color | Button color |
-|----------------------------------------|---------------------------------------------|-------------|----------|--------|
-|![Magenta blue as background](assets/img/doc/colors/2a0746.svg)|![White as main font color](assets/img/doc/colors/ffffff.svg)|![Wine red](assets/img/doc/colors/8e27748.svg)|![A medium dark shade of brown used for button's](assets/img/doc/colors/a15b00.svg)|
+|Theme coloring|Font colorining|Interruption El.|Button coloring|
+|-----------|------------|------------|------------|
+|![Magenta blue as background](assets/img/docs/colors/2a0746.svg)|![White as main font color](assets/img/docs/colors/ffffff.svg)|![Wine red](assets/img/docs/colors/8e2748.svg)|![A medium dark shade of brown used for button's](assets/img/docs/colors/a15b00.svg)|
+
 
 ## Technologies, Libraries & Sources
 
