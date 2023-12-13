@@ -1,10 +1,29 @@
 # **Bedtime Stories**
 
+## <a id="introduction-aa"></a>**Introduction**
+
+The [Bedtime Stories](https://github.com/DaSHdotHub/BedtimeStories) website is a page for parents and children alike.
+As long as someone can read he or she should be encouraged to visit to check for new or
+old, rather classic short stories.
+
+One of the key concepts of this website should be to sample some of these short
+stories we all so cherish and love from our childhood. Create an immersion which
+goes beyond plain black text on white background.
+
+### <a id="motivation-aa"></a>**Motivation**
+
+One of the thing I do most on a regulary basis is reading a good night story to my son.
+As marvelous as books are, sometimes there is no possibilty to bring them along on a
+longer trip. A website like [Bedtime Stories](https://dashdothub.github.io/BedtimeStories/) (Deployed on github pages) is
+charming to the reader through sheer simplicity and old fashioned retro styling.
+
+## <a id="responsive_design-aa"></a>**Responsive Design**
+
 ## **Table of Content**
 
 ### [**Introduction**](#introduction-aa)
 
-### [**Motivation**](#motivation-aa)
+#### [**Motivation**](#motivation-aa)
 
 ### [**Technologies**](#technologiy-aa)
 
@@ -27,25 +46,6 @@
 
 - [Content](#content)
 - [Media](#media)
-
-## <a id="introduction-aa"></a>**Introduction**
-
-The Bedtime Stories website is a page for parents and children alike.
-As long as someone can read he or she should be encouraged to visit to check for new or
-old, rather classic short stories.
-
-One of the key concepts of this website should be to sample some of these short
-stories we all so cherish and love from our childhood. Create an immersion which
-goes beyond plain black text on white background.
-
-## <a id="motivation-aa"></a>**Motivation**
-
-One of the thing I do most on a regulary basis is reading a good night story to my son.
-As marvelous as books are, sometimes there is no possibilty to bring them along on a
-longer trip. A website like [Bedtime Stories](https://github.com/DaSHdotHub/BedtimeStories) is
-charming to the reader through sheer simplicity and old fashioned retro styling.
-
-## <a id="responsive_design-aa"></a>**Responsive Design**
 
 ### **Header**
 
