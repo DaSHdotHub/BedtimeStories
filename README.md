@@ -47,6 +47,14 @@ charms readers with its simplicity and old-fashioned retro styling.
 
 ### [**Quality Control**](#quality-control-aa)
 
+- [**W3C Validator - HTML**](#w3c-html-validator)
+
+- [**W3C Validator - CSS**](#w3c-csee-validator)
+
+- [***Lighthouse report - mobile**](#lighthouse---mobile)
+
+- [***Lighthouse report - desktop**](#lighthouse---desktop)
+
 ### [**Testing**](#testing-aa)
 
 ### [**Deployment and local development**](#deployment-and-local-development-aa)
@@ -188,31 +196,84 @@ In this section, we detail the technologies, libraries, and sources used in the 
 
 W3C HTML Validator, W3C CSS Validator, and Dev-Tools Lighthouse were used for quality control.
 
+### **W3C HTML Validator**
+
 <details>
 <summary>Results - W3C HTML Validator</summary>
 
-<strong></strong>No Errors found.
-<strong>Index.html</strong>
+No Errors found. <strong>Index.html</strong>
 
 <img src="assets/img/doc/reports/Validation_index.webp" alt="W3C HTML Validator results for index.html">
 
-<strong>Library.html</strong>
+No Errors found. <strong>Library.html</strong>
 
 <img src="assets/img/doc/reports/Validation_library.webp" alt="W3C HTML Validator results for library.html">
 
-<strong>Feedback.html</strong>
+No Errors found. <strong>Feedback.html</strong>
 
 <img src="assets/img/doc/reports/Validation_feedback.webp" alt="W3C HTML Validator results for feedback.html">
 </details>
+
+### **W3C CSS Validator**
+
 <details>
 <summary>Results - W3C CSS Validaor</summary>
+
 No Errors found
-<img src="" alt="">
+
+<img src="assets/img/doc/reports/Validation_css.webp" alt="W3C CSS Validator results">
+
 </details>
+
+### **Lighthouse - mobile**
+
+
 <details>
-<summary>Results - Dev-Tools Lighthouse</summary>
-<img src="" alt="">
+<summary>Results - Dev-Tools Lighthouse - mobile</summary>
+
+<strong>Overall good results can for mobile be seen</strong>
+
+<strong>For Index.html</strong>
+
+<img src="assets/img/doc/reports/Lighthouse_mobile_index.webp" alt="lighthouse report from chrome dev-tools for index.html and mobile">
+
+<strong>For Library.html</strong>
+
+<img src="assets/img/doc/reports/Lighthouse_mobile_library.webp" alt="lighthouse report from chrome dev-tools for library.html and mobile">
+
+<strong>For Library.html</strong> after low resolution covers were added for mobile devices with a screen width smaller than 480px.
+
+<img src="assets/img/doc/reports/Lighthouse_mobile_library2.webp" alt="lighthouse report from chrome dev-tools for library.html and mobile after a low resolution fix">
+
+<strong>For Feedback.html</strong>
+
+<img src="assets/img/doc/reports/Lighthouse_mobile_feedback.webp" alt="lighthouse report from chrome dev-tools for feedback.html and mobile">
+
 </details>
+
+
+### **Lighthouse - desktop**
+
+
+<details>
+<summary>Results - Dev-Tools Lighthouse - desktop</summary>
+
+<strong>Overall good results can for mobile be seen</strong>
+
+<strong>For Index.html</strong>
+
+<img src="assets/img/doc/reports/Lighthouse_desktop_index.webp" alt="lighthouse report from chrome dev-tools for index.html and desktop">
+
+<strong>For Library.html</strong>
+
+<img src="assets/img/doc/reports/Lighthouse_desktop_library.webp" alt="lighthouse report from chrome dev-tools for library.html and desktop">
+
+<strong>For Feedback.html</strong>
+
+<img src="assets/img/doc/reports/Lighthouse_desktop_feedback.webp" alt="lighthouse report from chrome dev-tools for feedback.html and desktop">
+
+</details>
+
 
 ## <a id="deployment-and-local-development-aa"></a>**Deployment and local development**
 
