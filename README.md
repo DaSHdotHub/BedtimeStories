@@ -45,7 +45,7 @@ charms readers with its simplicity and old-fashioned retro styling.
   
 - [**IDE**](#ide)
 
-### [**Quality Control**](#quality-control-aa)
+### [**Testing & Quality Control**](#quality-control-aa)
 
 - [**W3C Validator - HTML**](#w3c-html-validator)
 
@@ -54,8 +54,6 @@ charms readers with its simplicity and old-fashioned retro styling.
 - [**Lighthouse report - mobile**](#lighthouse---mobile)
 
 - [**Lighthouse report - desktop**](#lighthouse---desktop)
-
-### [**Testing**](#testing-aa)
 
 ### [**Deployment and local development**](#deployment-and-local-development-aa)
 
