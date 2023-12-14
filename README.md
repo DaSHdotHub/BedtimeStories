@@ -313,7 +313,7 @@ Special thanks to my wife and child for their unwavering support. :-)
 - Short stories were artificially generated with the help of ChatGPT v4, see following example
 <details>
 <summary>Rhyme for *Snow White*, extract from the chat with ChatGPT</summary>
-<img src="assets/img/doc/chat_openAI.webp" alt="chat with ChatGPT for creating a rhyme for the fairy-tale Snow-White">
+<img src="aassets/img/doc/chat_openAI_snow_white.webp" alt="chat with ChatGPT for creating a rhyme for the fairy-tale Snow-White">
 </details>
 
 ### **Media**
