@@ -53,7 +53,7 @@
     <section id="library-page">
       <div id="covers">
         <div class="cover-container">
-          <a href="#textPussInBoots" class="cover-label">
+          <a href="#textPussInBoots" class="cover-label" onclick="deactivateBodyOverflow()">
             <p>Puss In Boots</p>
             <img src="assets/img/lib/PussInBoots.webp"
               srcset="assets/img/lib/PussInBoots_480x459.webp 480w"
@@ -98,10 +98,10 @@
           <br>In the hearts of those who endeavor,
           <br>Puss's spirit fades never.
           <br>
-          <a href="#" class="close-button">Return to Library</a>
+          <a href="#" class="close-button" onclick="activateBodyOverflow()">Return to Library</a>
         </div>
         <div class="cover-container">
-          <a href="#textSnowWhite" class="cover-label">
+          <a href="#textSnowWhite" class="cover-label" onclick="deactivateBodyOverflow()">
             <p>Snow White</p>
             <img src="assets/img/lib/SnowWhite.webp"
               srcset="assets/img/lib/SnowWhite_480x459.webp 480w"
@@ -151,10 +151,10 @@
           <br>In every heart, a song to share,
           <br>Of a princess, kind and rare.
           <br>
-          <a href="#" class="close-button">Return to Library</a>
+          <a href="#" class="close-button" onclick="activateBodyOverflow()">Return to Library</a>
         </div>
         <div class="cover-container">
-          <a href="#textHanselAndGretel" class="cover-label">
+          <a href="#textHanselAndGretel" class="cover-label" onclick="deactivateBodyOverflow()">
             <p>Hansel and Gretel</p>
             <img src="assets/img/lib/HanselAndGretel.webp"
               class="cover"
@@ -209,10 +209,10 @@
           <br>In the darkest times, they made it through,
           <br>Together, their bond forever grew.
           <br>
-          <a href="#" class="close-button">Return to Library</a>
+          <a href="#" class="close-button" onclick="activateBodyOverflow()">Return to Library</a>
         </div>
         <div class="cover-container">
-          <a href="#textRumpelstiltskin" class="cover-label">
+          <a href="#textRumpelstiltskin" class="cover-label" onclick="deactivateBodyOverflow()">
             <p>Rumpelstiltskin</p>
             <img src="assets/img/lib/Rumpelstiltskin.webp"
               srcset="assets/img/lib/Rumpelstiltskin_480x459.webp 480w"
@@ -317,10 +317,10 @@
           <br>A tale of deceit, courage, and fate,
           <br>In this magical, fairy tale state.
           <br>
-          <a href="#" class="close-button">Return to Library</a>
+          <a href="#" class="close-button" onclick="activateBodyOverflow()">Return to Library</a>
         </div>
         <div class="cover-container">
-          <a href="#textFutureStories" class="cover-label">
+          <a href="#textFutureStories" class="cover-label" onclick="deactivateBodyOverflow()">
             <p>Future Stories...</p>
             <img src="assets/img/lib/FutureStories.webp"
               srcset="assets/img/lib/FutureStories_480x459.webp 480w"
@@ -336,7 +336,7 @@
           <br>Your favourite "Once Upon A Time" was not present,
           <br>then leave feedback what story you want to see next!
           <br>
-          <a href="#" class="close-button">Return to Library</a>
+          <a href="#" class="close-button" onclick="activateBodyOverflow()">Return to Library</a>
         </div>
       </div>
     </section>
@@ -369,6 +369,16 @@
 
   <!-- Add Fontawesome script for icons to display-->
   <script src="https://kit.fontawesome.com/8553d96c4f.js" crossorigin="anonymous"></script>
+  <!-- Script for Overlay Control -->
+  <script>
+    function deactivateBodyOverflow() {
+        document.body.style.overflow = 'hidden';
+    }
+
+    function activateBodyOverflow() {
+        document.body.style.overflow = 'auto';
+    }
+</script>
 </body>
 
 </html>
