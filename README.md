@@ -3,28 +3,23 @@
 ## <a id="introduction-aa"></a>**Introduction**
 
 The [Bedtime Stories](https://github.com/DaSHdotHub/BedtimeStories) website is a page for parents and children alike.
-As long as someone can read he or she should be encouraged to visit to check for new or
-old, rather classic short stories.
+As long as someone can read, he or she should be encouraged to visit to check for new or classic short stories.
 
-One of the key concepts of this website should be to sample some of these short
-stories we all so cherish and love from our childhood. Create an immersion which
-goes beyond plain black text on white background.
+One of the key concepts of this website is to showcase cherished short stories from our childhood, creating an immersive experience beyond plain black text on a white background.
 
 ### <a id="motivation-aa"></a>**Motivation**
 
-One of the thing I do most on a regulary basis is reading a good night story to my son.
-As marvelous as books are, sometimes there is no possibilty to bring them along on a
-longer trip. A website like [Bedtime Stories - deployed on GitHub pages -](https://dashdothub.github.io/BedtimeStories/) is
-charming to the reader through sheer simplicity and old fashioned retro styling.
+One of the things I do most regularly is read a goodnight story to my son. As marvelous as books are, there are times when it's not possible to bring them along on a trip. A website like [Bedtime Stories, deployed on GitHub pages](https://dashdothub.github.io/BedtimeStories/) 
+charms readers with its simplicity and old-fashioned retro styling.
 
 ![Am I Responsive](assets/img/doc/am-i-responsive.webp)
 
 
-## **Table of Content**
+## **Table of Contents**
 
-### [**Introduction**](#introduction-aa)
+## [**Introduction**](#introduction-aa)
 
-#### [**Motivation**](#motivation-aa)
+- [**Motivation**](#motivation-aa)
 
 ## [**Features**](#features)
 
@@ -42,13 +37,13 @@ charming to the reader through sheer simplicity and old fashioned retro styling.
 
 - [**Coloring**](#coloring)
 
-## [**Technologies, Libraries & Sources**](#technologiy-aa)
+## [**Technologies, Libraries & Sources**](#technologies-libraries--sources)
 
-## [**Responsive Design and Preview**](#responsive_design-aa)
-
-- [Header](#header)
-- [Preview](#preview)
-- [IAmResponsive](#I-am-responsive)
+- [**Technologies**](#technologies)
+  
+- [**Libraries & Sources**](#libraries--sources)
+  
+- [**IDE**](#ide)
 
 ### [**Quality Control**](#quality-control-aa)
 
@@ -95,18 +90,18 @@ In the following the desktop presentation is shown of each page, clicking on one
 <img src="assets/img/doc/desktop_feedback.webp" alt="feedback.html as information gathering page">
 </details>
 
-### **Responsive Desgin Elements**
+### **Responsive Design Elements**
 
 #### **Header**
 
-- On smaller devices the header will show the Logo and only three small symbols for navigation. This changes however when a bigger screen is present, the labels are than also shown for convinience.<br>
+- On smaller devices, the header shows the logo and three symbols for navigation. This changes on larger screens, where labels are also shown for convenience.<br>
   ![Header on small devices](assets/img/doc/Header_iPhone_XR.webp)
   ![Header on tablet devices and bigger](assets/img/doc/Header_iPad.webp)
 - The active page is circled on the intended navigation symbol.
-- Design-Language, inuitive approach. The icons as shown do represent the interaction the user can expect.
-  - 'Home' icon for the *main* page or *homepage*
-  - 'Openend book' icon for the *library*
-  - 'Pen on note' icon for suggesting to leave user input, in this case *feedback*
+- Design Language - Intuitive icons represent the expected interaction: 
+  - 'Home' for the *main* page
+  - 'Openend book' for the *library*
+  - 'Pen on note' for *feedback*
 
 #### **Footer**
 
@@ -135,7 +130,7 @@ In the following the desktop presentation is shown of each page, clicking on one
   The sole difference between mobile and desktop is the size of the input fields and the text-alignment to make the most use of the given space.
 
 
-### **Future Features (not planned)**
+### **Future Features (not currently planned)**
 
 - Add more short stories to the library.
 - Add "reading out" feature
@@ -165,6 +160,7 @@ In the following the desktop presentation is shown of each page, clicking on one
 
 
 ## Technologies, Libraries & Sources
+In this section, we detail the technologies, libraries, and sources used in the project.
 
 ### **Technologies**
 
@@ -177,52 +173,36 @@ In the following the desktop presentation is shown of each page, clicking on one
 - [GitHub](https://github.com/) - Deployment of the website and storing the files online.
 - [Google Fonts](https://fonts.google.com/) - Imported main fonts for the website.
 - [Am I Responsive](https://ui.dev/amiresponsive) - Mockup responsive image for the README file.
+- [Python3 template from CI](https://github.com/Code-Institute-Org/ci-full-template) - Python3 based template from 'Code Institute' for easier deployment.
 
-### **Preview**
 
-- **Mobile Phone**
-  <details>
-  <summary>index.html
-  </summary>
+### **IDE**
 
-  ![Preview Index Page Mobile](/assets/img/docs/mobile_iPhoneXR_index.png)
-  </details>
-
-  <details>
-  <summary>library.html
-  </summary>
-
-  ![Preview Library Page Mobile](/assets/img/docs/mobile_iPhoneXR_library.png)
-  </details>
-
-  <details>
-  <summary>feedback.html
-  </summary>
-
-  ![Preview Feedback Page Mobile](/assets/img/docs/mobile_iPhoneXR_feedback.png)
-  </details>
+- [Codeanywhere](https://codeanywhere.com/signin) - Cloud IDE, was abandoned due to performance reasons in favour to
+- [VS-code for Mac](https://code.visualstudio.com/download) - Local IDE
 
 ## <a id="quality-control-aa"></a>**Quality Control**
 
-- W3C HTML Validator
-- W3C CSS Validaor
-- Dev-Tools Lighthouse
+W3C HTML Validator, W3C CSS Validator, and Dev-Tools Lighthouse were used for quality control.
 
-## <a id="technology-aa"></a>**Technology**
-
-In this project following technologies and tools were used:
-
-- GitHub as 'Code Repository' and for version control
-- Git for packaging and comittinng the code
-- HTML5
-- CSS3
-- Codeanywhere as IDE
-- Python3 template from CI
-- Am I Resonsive for creating some mockup images for this documentation
+<details>
+<summary>Results - W3C HTML Validator</summary>
+<img src="" alt="">
+</details>
+<details>
+<summary>Results - W3C CSS Validaor</summary>
+<img src="" alt="">
+</details>
+<details>
+<summary>Results - Dev-Tools Lighthouse</summary>
+<img src="" alt="">
+</details>
 
 ## <a id="deployment-and-local-development-aa"></a>**Deployment and local development**
 
 ### **GitHub Pages**
+
+To deploy the project on GitHub Pages...
 
 1. Log in to GitHub and locate [GitHub Repository Bedtime Stories](https://github.com/DaSHdotHub/BedtimeStories)
 2. At the navigation bar of the repository tab find "Settings", click.
@@ -234,11 +214,15 @@ In this project following technologies and tools were used:
 
 By forking the GitHub Repository we can make a copy of the original repository to view or make changes without changing the original repository.
 
+For forking the GitHub Repository...
+
 1. Log in to GitHub and locate [GitHub Repository Bedtime Stories](https://github.com/DaSHdotHub/BedtimeStories)
 2. At the top, in the line with the project's name, on the right side find "Fork", click.
 3. Now you have a copy of the original repository in your GitHub account.
 
 ### **Local run**
+
+To run the project locally...
 
 - Make sure python3 is installed.<br>
 - Inside or outside an IDE run following command from the root directory of the project:<br>
@@ -246,7 +230,7 @@ By forking the GitHub Repository we can make a copy of the original repository t
 
 ## <a id="credits-aa"></a>**Credits**
 
-- Big thanks to my wife and my child who are always supporting me at their best :-)
+- Special thanks to my wife and child for their unwavering support. :-)
 
 ### **Content**
 
