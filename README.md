@@ -62,8 +62,11 @@ charms readers with its simplicity and old-fashioned retro styling.
 ## Features
 
 ### **Responsive Design**
+This project was developed in a *mobile first* approach, later on designs were changed to deliver a complete user experience for mobile as well as for larger devices, like tablets and desktop computers.
 
 #### **Preview mobile**
+
+  To enlarge the 'preview for mobile' either *pinch to zoom* on mobile devices or use the zoom feature from your browser, e.g. [CTRL+Scroll on most windows machines].
 
   | Index.html                                                | Library.html                                                  | Overlay in Library.html                                                          | Feedback.html                                                   |
   | --------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------- | --------------------------------------------------------------- |
@@ -187,10 +190,23 @@ W3C HTML Validator, W3C CSS Validator, and Dev-Tools Lighthouse were used for qu
 
 <details>
 <summary>Results - W3C HTML Validator</summary>
-<img src="" alt="">
+
+<strong></strong>No Errors found.
+<strong>Index.html</strong>
+
+<img src="assets/img/doc/reports/Validation_index.webp" alt="W3C HTML Validator results for index.html">
+
+<strong>Library.html</strong>
+
+<img src="assets/img/doc/reports/Validation_library.webp" alt="W3C HTML Validator results for library.html">
+
+<strong>Feedback.html</strong>
+
+<img src="assets/img/doc/reports/Validation_feedback.webp" alt="W3C HTML Validator results for feedback.html">
 </details>
 <details>
 <summary>Results - W3C CSS Validaor</summary>
+No Errors found
 <img src="" alt="">
 </details>
 <details>
