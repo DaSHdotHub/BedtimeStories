@@ -97,6 +97,44 @@ In the following the desktop presentation is shown of each page, clicking on one
 
 ### **Responsive Desgin Elements**
 
+#### **Header**
+
+- On smaller devices the header will show the Logo and only three small symbols for navigation. This changes however when a bigger screen is present, the labels are than also shown for convinience.<br>
+  ![Header on small devices](assets/img/doc/Header_iPhone_XR.webp)
+  ![Header on tablet devices and bigger](assets/img/doc/Header_iPad.webp)
+- The active page is circled on the intended navigation symbol.
+- Design-Language, inuitive approach. The icons as shown do represent the interaction the user can expect.
+  - 'Home' icon for the *main* page or *homepage*
+  - 'Openend book' icon for the *library*
+  - 'Pen on note' icon for suggesting to leave user input, in this case *feedback*
+
+#### **Footer**
+
+- On smaller devices the footer is very consistent with the whole design of the complete webpage.
+- This changes for bigger screens as the footer gets framed to attract more attention. <br>
+![Header on small devices](assets/img/doc/Footer_iPhone.webp)
+![Header on tablet devices and bigger](assets/img/doc/Footer_iPad.webp)
+- On desktop devices where you would hover with a mouse over the *Social Network* icons, they will enlarge to attract even more attention.
+
+#### **Index.html**
+
+  As can be seen above in the preview section from mobile and desktop the *index.html* does slightly differ depending on the screensize maintaining a good visibility and readability without the need to scroll horizontal.
+  
+  The *interruption element* also changes it's size and placement on the background depending on the screen size, though always maintaining the element does not attend to much attention and visually blocking the background image.
+
+#### **Library.html**
+
+  The difference can be seen quite clearly in the preview section. Where on mobile the user will experience a seamless sequence of images, desktop devices or rather *bigger* screens will show a two column gallery approach where each image reminds the user unintentionally of an *app*-like structure.
+
+#### **Overlay in Library.html**
+
+  Almost identical between mobile and desktop, with the exception of the alignment of the content. On mobile it is left alligend for better readability where on desktop size the allignment is centered for better use of the visual space.
+
+#### **Feedback.html**
+  
+  The sole difference between mobile and desktop is the size of the input fields and the text-alignment to make the most use of the given space.
+
+
 ### **Future Features (not planned)**
 
 - Add more short stories to the library.
@@ -140,24 +178,7 @@ In the following the desktop presentation is shown of each page, clicking on one
 - [Google Fonts](https://fonts.google.com/) - Imported main fonts for the website.
 - [Am I Responsive](https://ui.dev/amiresponsive) - Mockup responsive image for the README file.
 
-## <a id="responsive_design-aa"></a>**Responsive Design**
-
-### **Header**
-
-- On smaller devices the header will show besides the Logo only three small symbols
-  for navigation. This changes however when a bigger screen is present, the labels
-  are than also shown for convinience.<br>
-  ![Header on small devices](assets/img/docs/small_header.png)
-  ![Header on tablet devices and bigger](assets/img/docs/big_header.png)
-- Also the active page is circled on the connected symbol.
-- Design-Language, inuitive approach. The icons as shown do represent the interaction the
-  user can expect when clicking on them.
-
-### **I am responsive\***
-
-
 ### **Preview**
-
 
 - **Mobile Phone**
   <details>
