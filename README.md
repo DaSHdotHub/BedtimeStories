@@ -51,9 +51,9 @@ charms readers with its simplicity and old-fashioned retro styling.
 
 - [**W3C Validator - CSS**](#w3c-csee-validator)
 
-- [***Lighthouse report - mobile**](#lighthouse---mobile)
+- [**Lighthouse report - mobile**](#lighthouse---mobile)
 
-- [***Lighthouse report - desktop**](#lighthouse---desktop)
+- [**Lighthouse report - desktop**](#lighthouse---desktop)
 
 ### [**Testing**](#testing-aa)
 
@@ -307,12 +307,16 @@ To run the project locally...
 
 ## <a id="credits-aa"></a>**Credits**
 
-- Special thanks to my wife and child for their unwavering support. :-)
+Special thanks to my wife and child for their unwavering support. :-)
 
 ### **Content**
 
 - Some design patterns were inspired by [Love Running](https://github.com/DaSHdotHub/Love-Runnin-on-CI-Template) project.
-- 8bit retro theming is just a personal thing.
+- Short stories were artificially generated with the help of ChatGPT v4, see following example
+<details>
+<summary>Rhyme for *Snow White*, extract from the chat with ChatGPT</summary>
+<img src="assets/img/doc/chat_openAI.webp" alt="chat with ChatGPT for creating a rhyme for the fairy-tale Snow-White">
+</details>
 
 ### **Media**
 

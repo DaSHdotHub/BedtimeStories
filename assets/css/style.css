@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant&family=Pixelify+Sans:wght@300;400;500;600&display=swap");
 
+/* Color concept for adjsuting quick changes to the color palette*/
 :root {
   --wine-red: rgba(142, 39, 72, 0.9);
   --font-color: #ffffff;
